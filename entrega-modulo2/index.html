@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripcion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Formulario de Contacto</h2>
+
+    <main>
+        <dialog id="dialog">
+            <form method="dialog">
+                <p id="result">Default Text</p>
+                <button type="submit" id="closeDialogBttn">Cerrar</button>
+            </form>
+        </dialog>
+
+        <form class="form" method="post" id="contactForm" novalidate>
+            <p>
+                <label for="nameInput">Nombre *</label><br>
+                <input type="text" name="nombre" id="nameInput" required>
+            </p>
+
+            <p>
+                <label for="surnameInput">Apellido *</label><br>
+                <input type="text" name="apellido" id="surnameInput" required>
+            </p>
+
+            <p>
+                <label for="telInput">Telefono</label><br>
+                <input type="tel" name="tel" id="telInput">
+            </p>
+
+            <p>
+                <label for="mailInput">Email *</label><br>
+                <input type="email" name="mail" id="mailInput" required>
+            </p>
+
+            <p>
+                <label for="tipoDeContacto">Tipo de contacto *</label><br>
+                <select name="tipoDeContacto" id="tipoDeContacto" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="ventas">Ventas</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="issueInput">Asunto *</label><br>
+                <input type="text" name="asunto" id="issueInput" required>
+            </p>
+
+            <p>
+                <label for="descriptionTA">Descripcion *</label><br>
+                <textarea rows="3" name="descripcion" id="descriptionTA" required></textarea>
+            </p>
+
+            <button type="submit" id="bttnSend">Enviar formulario...</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(44, 44, 44);
+    color:whitesmoke
+}
+
+form {
+    margin-left: 1.4rem;
+}
+
+#dialog, #dialog *{
+    background-color: rgb(61, 61, 61);
+}
+
+#dialog{
+    min-width: 280px;
+    min-height: 58px;
+    border: 2px solid rgb(0, 95, 133);
+    padding: 10px;
+}
+
+#dialog p {
+    margin: 0 0 0rem 0;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#dialog form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin: 0;
+}
+
+#dialog button {
+    display: block;
+    margin: 10px auto 0 auto;
+}

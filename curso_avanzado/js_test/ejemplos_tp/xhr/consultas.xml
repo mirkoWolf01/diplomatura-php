@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consultas>
+  <consulta>
+    <nombre>nombre</nombre>
+    <apellido>apellido</apellido>
+    <email>jlopez@gmail.com</email>
+    <tipoContacto>soporte</tipoContacto>
+    <asunto>asd</asunto>
+    <descripcion>asdasd asdasd</descripcion>
+    <telefono>111111111</telefono>
+    <fecha>2026-09-16T04:53:39+02:00</fecha>
+  </consulta>
+</consultas>

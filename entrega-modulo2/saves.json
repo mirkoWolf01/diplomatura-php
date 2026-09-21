@@ -1,0 +1,12 @@
+[
+    {
+        "tel": "115242131",
+        "date": "2026-09-21T06:04:33+02:00",
+        "nombre": "Maria",
+        "apellido": "Ana",
+        "mail": "anamaria@gmail.com",
+        "tipoDeContacto": "soporte",
+        "asunto": "Problemas con la facultad",
+        "descripcion": "Es jodida"
+    }
+]
