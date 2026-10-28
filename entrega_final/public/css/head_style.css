@@ -1,0 +1,53 @@
+:root {
+    --navbar-bg-color: rgb(37, 37, 37);       
+    --navbar-text-color: #fcfcfc;     
+    --navbar-brand-color: #fcfcfc;    
+    --navbar-hover-color: #d9b0eb;    
+    --navbar-height: 45px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(28, 28, 31);
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navbar-bg-color);
+    min-height: var(--navbar-height);
+    padding: 0 1.2rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.homepage-button {
+    color: var(--navbar-brand-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.saludo-usuario, .menu {
+    color: var(--navbar-text-color);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.15s ease-in-out;
+}
+
+.menu a:hover {
+    color: var(--navbar-hover-color);
+}

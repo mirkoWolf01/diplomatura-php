@@ -1,0 +1,111 @@
+.auth-conteiner {
+    max-width: 420px;
+    margin: 5rem auto;
+    padding: 0 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.form-container {
+    background-color: #171c23;
+    border-radius: 8px;
+    border-top: 4px solid #996bac;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+    color: #e2e8f0;
+}
+
+.auth-title {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #f8fafc;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.input-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+}
+
+.input-field {
+    background-color: rgb(37, 37, 37);
+    border: 1px solid #2d3748;
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    color: #fcfcfc;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #996bac;
+    box-shadow: 0 0 0 2px rgba(153, 107, 172, 0.25);
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #996bac;
+    color: #fcfcfc;
+    border: none;
+    padding: 0.85rem;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #d9b0eb;
+    color: #171c23;
+}
+
+.auth-footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #94a3b8;
+}
+
+.register-link {
+    color: #d9b0eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.register-link:hover {
+    color: #fcfcfc;
+    text-decoration: underline;
+}
+
+.error-messages{
+    color: #ef4444; 
+    background-color: rgba(239, 68, 68, 0.15); 
+    border: 1px solid #ef4444; 
+    padding: 0.75rem 1rem; 
+    border-radius: 6px; 
+    margin-bottom: 1.5rem; 
+    font-size: 0.9rem;
+}
+
+.success-message{
+    color: #4ade80; 
+    background-color: rgba(74, 222, 128, 0.15); 
+    border: 1px solid #4ade80; 
+    padding: 0.75rem 1rem; 
+    border-radius: 6px; 
+    margin-bottom: 1.5rem; 
+    font-size: 0.9rem;
+}

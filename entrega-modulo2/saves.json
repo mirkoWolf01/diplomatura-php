@@ -8,5 +8,15 @@
         "tipoDeContacto": "soporte",
         "asunto": "Problemas con la facultad",
         "descripcion": "Es jodida"
+    },
+    {
+        "tel": "11212012112",
+        "date": "2026-10-07T18:52:14+02:00",
+        "nombre": "Rodrigo",
+        "apellido": "Fleitas",
+        "mail": "mail_prueba@gmail.com",
+        "tipoDeContacto": "ventas",
+        "asunto": "Me cagaron",
+        "descripcion": "Eso. Me cagaron"
     }
 ]
